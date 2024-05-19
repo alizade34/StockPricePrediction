@@ -1,0 +1,2 @@
+pip install pandas numpy scipy scikit-learn keras gym stable-baselines3 matplotlib joblib
+
