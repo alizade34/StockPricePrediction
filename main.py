@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import scipy.stats as stats
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_squared_error
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Dropout
 import gym
@@ -13,3 +14,5 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import joblib
 import random
+import matplotlib.pyplot as plt
+import math
